@@ -1,0 +1,16 @@
+# Project dependencies
+gymnasium>=0.28.1
+chess>=1.9.4
+numpy>=1.23.0
+torch>=2.0.0
+pytest>=7.3.1
+matplotlib>=3.7.1
+tensorboard>=2.13.0
+tqdm>=4.65.0
+PyYAML>=6.0
+pyffish>=0.0.70  # For Xiangqi (Chinese Chess) support
+
+# Dev dependencies
+black>=23.3.0
+flake8>=6.0.0
+isort>=5.12.0

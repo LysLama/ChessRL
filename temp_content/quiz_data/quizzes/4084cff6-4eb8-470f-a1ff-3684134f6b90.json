@@ -1,0 +1,81 @@
+{
+  "quiz_id": "4084cff6-4eb8-470f-a1ff-3684134f6b90",
+  "title": "Chess Basics Quiz",
+  "description": "Test your knowledge of basic chess rules and concepts.",
+  "questions": [
+    {
+      "question_id": "056ceb09-71e1-4d75-b680-53d68ee58587",
+      "text": "Which piece can move in an L-shape?",
+      "difficulty": "beginner",
+      "category": "rules",
+      "game_type": "chess",
+      "explanation": "The Knight is the only chess piece that moves in an L-shape: two squares in one direction and then one square perpendicular to that direction.",
+      "type": "multiple_choice",
+      "options": [
+        "King",
+        "Queen",
+        "Rook",
+        "Knight"
+      ],
+      "correct_option": 3
+    },
+    {
+      "question_id": "30c8f635-5ecc-44a5-af2a-2f1528f589b9",
+      "text": "A pawn can move two squares forward on its first move.",
+      "difficulty": "beginner",
+      "category": "rules",
+      "game_type": "chess",
+      "explanation": "Pawns can move two squares forward from their starting position but only one square forward afterward.",
+      "type": "true_false",
+      "correct_answer": true
+    },
+    {
+      "question_id": "b16e726c-89da-4e19-8380-b252e21b0f34",
+      "text": "What is it called when the king is under attack?",
+      "difficulty": "beginner",
+      "category": "rules",
+      "game_type": "chess",
+      "explanation": "When the king is under attack, it is in 'check'. The player must move to eliminate the threat.",
+      "type": "multiple_choice",
+      "options": [
+        "Checkmate",
+        "Check",
+        "Stalemate",
+        "Draw"
+      ],
+      "correct_option": 1
+    },
+    {
+      "question_id": "5c069097-963a-40fe-b73a-2dee76299e76",
+      "text": "White to move. What is the best move to checkmate Black?",
+      "difficulty": "intermediate",
+      "category": "tactics",
+      "game_type": "chess",
+      "explanation": "Qxf7# is checkmate. The queen captures the f7 pawn with check, and the king has no legal moves.",
+      "type": "board_position",
+      "board_position": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1",
+      "correct_moves": [
+        "Qxf7#"
+      ]
+    },
+    {
+      "question_id": "58ca8326-563d-48e0-9eb4-8c3095a35435",
+      "text": "How many squares are on a standard chess board?",
+      "difficulty": "beginner",
+      "category": "basics",
+      "game_type": "chess",
+      "explanation": "A standard chess board has 8\u00d78 = 64 squares.",
+      "type": "multiple_choice",
+      "options": [
+        "36",
+        "49",
+        "64",
+        "81"
+      ],
+      "correct_option": 2
+    }
+  ],
+  "game_type": "chess",
+  "difficulty": "beginner",
+  "time_limit": 300
+}

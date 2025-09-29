@@ -1,0 +1,78 @@
+{
+  "quiz_id": "13f706ca-740b-4124-96e8-8924f19aba96",
+  "title": "Xiangqi Basics Quiz",
+  "description": "Test your knowledge of basic Xiangqi (Chinese Chess) rules and concepts.",
+  "questions": [
+    {
+      "question_id": "9916b968-2043-4dec-870d-d5143c7dfa84",
+      "text": "Which piece in Xiangqi must jump over exactly one piece to capture?",
+      "difficulty": "beginner",
+      "category": "rules",
+      "game_type": "xiangqi",
+      "explanation": "The Cannon moves like a Chariot (Rook) but must jump over exactly one piece to capture.",
+      "type": "multiple_choice",
+      "options": [
+        "General",
+        "Horse",
+        "Chariot",
+        "Cannon"
+      ],
+      "correct_option": 3
+    },
+    {
+      "question_id": "7b88301e-a080-4f82-a3ac-6e066fc25f5e",
+      "text": "The Elephant in Xiangqi can cross the river.",
+      "difficulty": "beginner",
+      "category": "rules",
+      "game_type": "xiangqi",
+      "explanation": "The Elephant cannot cross the river, which limits its movement to its own side of the board.",
+      "type": "true_false",
+      "correct_answer": false
+    },
+    {
+      "question_id": "f1e93cae-2567-4d30-9430-a4172d9bbe66",
+      "text": "How many total intersection points are on a standard Xiangqi board?",
+      "difficulty": "beginner",
+      "category": "basics",
+      "game_type": "xiangqi",
+      "explanation": "A Xiangqi board has 9 files and 10 ranks, making 9\u00d710 = 90 intersection points.",
+      "type": "multiple_choice",
+      "options": [
+        "64",
+        "81",
+        "90",
+        "100"
+      ],
+      "correct_option": 2
+    },
+    {
+      "question_id": "1bb9bf88-4f2b-42cb-a762-44240918cdfb",
+      "text": "In Xiangqi, the Generals can face each other directly on the same file if there are no pieces between them.",
+      "difficulty": "beginner",
+      "category": "rules",
+      "game_type": "xiangqi",
+      "explanation": "This is the 'flying general' rule. The two Generals cannot face each other directly on the same file with no pieces between them.",
+      "type": "true_false",
+      "correct_answer": false
+    },
+    {
+      "question_id": "48a5433f-be76-4e31-bab5-37f2a2fadb25",
+      "text": "What happens to a Soldier in Xiangqi when it crosses the river?",
+      "difficulty": "beginner",
+      "category": "rules",
+      "game_type": "xiangqi",
+      "explanation": "After crossing the river, a Soldier gains the ability to move horizontally in addition to moving forward.",
+      "type": "multiple_choice",
+      "options": [
+        "It can move backward",
+        "It can move horizontally",
+        "It gets promoted",
+        "It moves faster"
+      ],
+      "correct_option": 1
+    }
+  ],
+  "game_type": "xiangqi",
+  "difficulty": "beginner",
+  "time_limit": 300
+}

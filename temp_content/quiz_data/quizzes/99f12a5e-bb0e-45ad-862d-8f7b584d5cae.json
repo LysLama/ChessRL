@@ -1,0 +1,36 @@
+{
+  "quiz_id": "99f12a5e-bb0e-45ad-862d-8f7b584d5cae",
+  "title": "Quiz: Basic Chess Strategy",
+  "description": "Quiz based on the lesson: Basic Chess Strategy",
+  "questions": [
+    {
+      "question_id": "chess-strategy-001-q1",
+      "text": "Which of these is NOT a fundamental opening principle?",
+      "difficulty": "intermediate",
+      "category": "lesson",
+      "game_type": "chess",
+      "explanation": "",
+      "type": "multiple_choice",
+      "options": [
+        "Control the center",
+        "Develop knights and bishops",
+        "Advance all pawns first",
+        "Castle early"
+      ],
+      "correct_option": 2
+    },
+    {
+      "question_id": "chess-strategy-001-q2",
+      "text": "The king should remain passive throughout the entire game.",
+      "difficulty": "intermediate",
+      "category": "lesson",
+      "game_type": "chess",
+      "explanation": "",
+      "type": "true_false",
+      "correct_answer": false
+    }
+  ],
+  "game_type": "chess",
+  "difficulty": "intermediate",
+  "time_limit": null
+}

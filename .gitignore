@@ -1,0 +1,91 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment directories
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm / VSCode / IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+logs/
+models/saved_models/*
+!models/saved_models/.gitkeep
+
+# Old project files
+old_sources/
+backup_old_projects/
+
+# Cache & mypy / pytest
+.mypy_cache/
+.pytest_cache/
+
+# Coverage alt names
+coverage/
+
+# Performance profiles
+*.prof
+
+# Data & experiments (keep small mock json)
+data/**
+!chest_agent_random/data/bc_training/mock_*.json
+!chest_agent_random/data/bc_training/splits/*.json
+
+experiments/**
+!chest_agent_random/experiments/*/config.json
+!chest_agent_random/experiments/*/training_curves.png
+
+# Model checkpoints & weights
+**/checkpoints/**
+models/**/*.pt
+*.pt
+
+# Benchmark & result blobs
+benchmark_results/**
+
+# Logs already covered but ensure nested
+**/logs/**
+
+# Assets (allow GUI assets if needed)
+chess_gui_visualizer/assets/__pycache__/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Ignore setup scripts if not meant for distribution
+setup.bat
+setup.sh
+
+# OS
+Thumbs.db
+*.DS_Store

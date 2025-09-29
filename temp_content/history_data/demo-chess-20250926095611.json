@@ -1,0 +1,55 @@
+{
+  "game_id": "demo-chess-20250926095611",
+  "game_type": "chess",
+  "players": {
+    "white": "Player1",
+    "black": "Player2"
+  },
+  "moves": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bc4",
+    "Nf6",
+    "Ng5",
+    "d5",
+    "exd5",
+    "Na5",
+    "Bb5+",
+    "c6",
+    "dxc6",
+    "bxc6",
+    "Be2",
+    "h6",
+    "Nf3",
+    "e4",
+    "Ne5",
+    "Qd4",
+    "f4",
+    "Bc5",
+    "Rf1",
+    "Qxe5",
+    "fxe5",
+    "Ng4",
+    "d3",
+    "Nxe5",
+    "dxe4",
+    "Bd7"
+  ],
+  "result": "1-0",
+  "timestamp": "2025-09-26T09:56:11.140326",
+  "metadata": {
+    "event": "Demo Game",
+    "site": "Chess RL Demo",
+    "opening": "Two Knights Defense"
+  },
+  "analysis": {
+    "basic_statistics": {
+      "move_count": 30,
+      "duration": 30,
+      "winner": "Player1",
+      "game_type": "chess"
+    }
+  }
+}
